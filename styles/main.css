@@ -6,16 +6,46 @@
 
 body {
   background-color: white;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
 header {
-  padding: 30px;
+  padding: 10px 180px;
   font-size: 30px;
-  background-color: bisque;
+  background-color: #171a21;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo img {
+  max-width: 180px;
+}
+
+header .discipline {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+
+header .name {
+  font-weight: 700;
+  text-align: right;
+  color: #cacaca;
+  font-size: 24px;
 }
 
 main {
-  background-color: white;
+  background: url(https://community.akamai.steamstatic.com/public/images/friends/colored_body_top2.png?v=2) center top no-repeat #1b2838;
+  padding: 10px 0px 40px 0px;
+  min-height: 80.9vh;
 }
 
 main .mainTitle {
@@ -24,6 +54,7 @@ main .mainTitle {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  color: white;
 }
 
 main .mainTitle h3 {
@@ -34,8 +65,8 @@ main .mainTitle h3 {
 .worksList {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 33%  33% 33%;
-      grid-template-columns: 33%  33% 33%;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
   margin: 0px 300px;
 }
 
@@ -50,10 +81,10 @@ main .mainTitle h3 {
 }
 
 .worksList__el_active {
-  background-color: #e55252;
+  background-color: #cf5050;
   color: white;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px dashed #f1d1d3;
   border-radius: 10px;
   margin: 5px 20px;
   text-align: center;
@@ -68,20 +99,22 @@ main .mainTitle h3 {
 
 .container {
   max-width: 1500px;
-  border: 1px solid #222;
-  margin: 0px auto;
+  border: 1px solid #e9b7b7;
+  border-radius: 10px;
+  margin: 20px auto;
 }
 
 .github {
-  background-color: #282020;
+  background-color: #2d333b;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 75%;
       grid-template-columns: 25% 75%;
+  border-radius: 10px;
   padding: 40px;
 }
 
-.info__avatar {
+.github .info__avatar {
   margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,35 +128,35 @@ main .mainTitle h3 {
           align-items: center;
 }
 
-.info__avatar img {
+.github .info__avatar img {
   border-radius: 50%;
   max-width: 300px;
 }
 
-.info__name {
+.github .info__name {
   color: white;
   font-size: 30px;
   font-weight: bold;
 }
 
-.info__description {
+.github .info__description {
   color: #a4a4a4;
   font-size: 25px;
   font-weight: lighter;
 }
 
-.tasks {
+.github .tasks {
   padding: 40px;
 }
 
-.tasks__title {
+.github .tasks__title {
   color: white;
   font-size: 27px;
   font-weight: lighter;
   margin-bottom: 15px;
 }
 
-.tasks__elements {
+.github .tasks__elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +165,7 @@ main .mainTitle h3 {
   gap: 15px;
 }
 
-.task {
+.github .tasks .task {
   border: 0.5px solid #6f6f6f;
   border-radius: 10px;
   padding: 20px 10px;
@@ -145,20 +178,23 @@ main .mainTitle h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.task__title {
+.github .tasks .task__title {
   color: #9797ee;
   font-weight: 900;
   margin-bottom: 20px;
 }
 
-.task__desc {
+.github .tasks .task__desc {
   color: #a4a4a4;
   margin-bottom: 20px;
 }
 
-.task__links {
+.github .tasks .task__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,33 +204,33 @@ main .mainTitle h3 {
           flex-direction: row;
 }
 
-.task__links_circle1 {
-  padding: 3px 9px;
+.github .tasks .task__links_circle1 {
+  padding: 3px 11px;
   background-color: yellow;
   border-radius: 50%;
   margin-right: 4px;
 }
 
-.task__links_circle2 {
-  padding: 3px 9px;
+.github .tasks .task__links_circle2 {
+  padding: 3px 11px;
   background-color: red;
   border-radius: 50%;
   margin-right: 4px;
 }
 
-.task__links_circle3 {
-  padding: 3px 9px;
+.github .tasks .task__links_circle3 {
+  padding: 3px 11px;
   background-color: #484848;
   border-radius: 50%;
   margin-right: 4px;
 }
 
-.task__links a {
+.github .tasks .task__links a {
   color: aquamarine;
   text-decoration: none;
 }
 
-.task__links a:hover {
-  color: #d6ff7f;
+.github .tasks .task__links a:hover {
+  color: #9ddafb;
 }
 /*# sourceMappingURL=main.css.map */

@@ -9,31 +9,62 @@ body {
     // max-width: 1500px;
     // border: 0px solid #222;
     // margin: 0px auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }   
   
 header {
-    padding: 30px;
+    padding: 10px 180px;
     font-size: 30px;
-    background-color: bisque;
+    background-color: rgb(23, 26, 33);
+
+    // display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    
+
+    .logo {
+        img {
+            max-width: 180px;
+        }
+    }
+
+    .discipline {
+        text-align: center;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+    }
+    
+    .name {
+        font-weight: 700;
+        text-align: right;
+        color: rgb(202, 202, 202);
+        font-size: 24px;
+        
+    }
 }
 
-
 main {
-    background-color: rgb(255, 255, 255);
-
-  .mainTitle {
-    display: flex;
-    justify-content: space-around;
-    h3 {
-        font-size: large;
-        margin: 15px 0px;
-    }
-  }
+    // background-color: rgb(32, 50, 171);
+    background: url(https://community.akamai.steamstatic.com/public/images/friends/colored_body_top2.png?v=2) center top no-repeat rgb(27,40, 56);
+    .mainTitle {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        h3 {
+            font-size: large;
+            margin: 15px 0px;
+        }
+    } 
+    padding: 10px 0px 40px 0px;
+    min-height: 80.9vh;
 }
 
 .worksList {
     display: grid;
-    grid-template-columns: 33%  33% 33%;
+    grid-template-columns: 33% 33% 33%;
     margin: 0px 300px;
 
     &__el {
@@ -46,10 +77,10 @@ main {
         font-weight: 800;
 
         &_active {
-            background-color: rgb(229, 82, 82);
+            background-color: rgb(207, 80, 80);
             color: white;
             padding: 10px;
-            border: 2px solid black;
+            border: 2px dashed rgb(241, 209, 211);
             border-radius: 10px;
             margin: 5px 20px;
             text-align: center;
@@ -66,124 +97,118 @@ main {
 
 
 .container {
-
     max-width: 1500px;
-    border: 1px solid #222;
-    margin: 0px auto;
+    border: 1px solid rgb(233, 183, 183);
+    border-radius: 10px;
+    margin: 20px auto;
 }
 
 
 .github {
-    background-color: rgb(40, 32, 32);
+    background-color: rgb(45, 51, 59);
 
     display: grid;
     grid-template-columns: 25% 75%;
 
-    padding: 40px;
-
-}
-
-.info {
-    &__avatar {
-        margin: 0px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        img {
-            border-radius: 50%;
-            max-width: 300px;
-        }
-    }
-
-    &__name {
-        color: white;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    &__description {
-        color: rgb(164, 164, 164);
-        font-size: 25px;
-        font-weight:lighter;
-    }
-}
-
-.tasks {
-
-    padding: 40px;
-
-    &__title {
-        color: white;
-        font-size: 27px;
-        font-weight: lighter;
-        margin-bottom: 15px;
-    }
-
-    &__elements {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-}
-
-.task {
-    border: 0.5px solid rgb(111, 111, 111);
     border-radius: 10px;
 
-    padding: 20px 10px;
+    padding: 40px;
 
-    min-width: 450px;
-    max-width: 450px;
-    // max-width: 30vw;
-    // display: grid;
-    // -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
-    // grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-    // gap: 1rem;
-
-    display: flex;
-    flex-direction: column;
-   
-
-    &__title {
-        color: rgb(151, 151, 238);
-        font-weight: 900;
-        margin-bottom: 20px;
+    .info {
+        &__avatar {
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                border-radius: 50%;
+                max-width: 300px;
+            }
+        }
+    
+        &__name {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        &__description {
+            color: rgb(164, 164, 164);
+            font-size: 25px;
+            font-weight:lighter;
+        }
     }
-    &__desc {
-        color: rgb(164, 164, 164);
-        margin-bottom: 20px;
 
-    }
-    &__links {
-        display: flex;
-        flex-direction: row;
-        &_circle1 {
-            padding: 3px 9px;
-            background-color: yellow;
-            border-radius: 50%;
-            margin-right: 4px;
-        }
-        &_circle2 {
-            padding: 3px 9px;
-            background-color: rgb(255, 0, 0);
-            border-radius: 50%;
-            margin-right: 4px;
+    .tasks {
+        padding: 40px;
 
+        &__title {
+            color: white;
+            font-size: 27px;
+            font-weight: lighter;
+            margin-bottom: 15px;
         }
-        &_circle3 {
-            padding: 3px 9px;
-            background-color: rgb(72, 72, 72);
-            border-radius: 50%;
-            margin-right: 4px;
 
+        &__elements {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
         }
-        a {
-            color:aquamarine;
-            text-decoration: none;
+        .task {
+            border: 0.5px solid rgb(111, 111, 111);
+            border-radius: 10px;
+        
+            padding: 20px 10px;
+        
+            min-width: 450px;
+            max-width: 450px;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+           
+        
+            &__title {
+                color: rgb(151, 151, 238);
+                font-weight: 900;
+                margin-bottom: 20px;
+            }
+            &__desc {
+                color: rgb(164, 164, 164);
+                margin-bottom: 20px;
+        
+            }
+            &__links {
+                display: flex;
+                flex-direction: row;
+                &_circle1 {
+                    padding: 3px 11px;
+                    background-color: yellow;
+                    border-radius: 50%;
+                    margin-right: 4px;
+                }
+                &_circle2 {
+                    padding: 3px 11px;
+                    background-color: rgb(255, 0, 0);
+                    border-radius: 50%;
+                    margin-right: 4px;
+        
+                }
+                &_circle3 {
+                    padding: 3px 11px;
+                    background-color: rgb(72, 72, 72);
+                    border-radius: 50%;
+                    margin-right: 4px;
+        
+                }
+                a {
+                    color:aquamarine;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color:rgb(157, 218, 251);
+                }
+            }
         }
-        a:hover {
-            color:rgb(214, 255, 127);
-
-        }
-       
     }
 }
+
