@@ -92,9 +92,11 @@ main .mainTitle h3 {
 }
 
 .worksList__el:hover {
-  background-color: #eb8585;
+  background-color: #ed9090;
   color: black;
   cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .container {

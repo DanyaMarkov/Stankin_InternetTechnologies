@@ -89,9 +89,10 @@ main {
         }
     }
     &__el:hover {
-        background-color: rgb(235, 133, 133);
+        background-color: rgb(237, 144, 144);
         color: rgb(0, 0, 0);
         cursor: pointer;
+        transition: 0.4s;
     }
 }
 
