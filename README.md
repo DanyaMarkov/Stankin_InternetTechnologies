@@ -34,16 +34,16 @@
     </a>
 
 -   Стейт-менеджер: MobX  
-     <a href='https://mobx.js.org/README.html' target='_blank' alt='MobX'>
+    <a href='https://mobx.js.org/README.html' target='_blank' alt='MobX'>
     <img src="https://brandslogos.com/wp-content/uploads/thumbs/mobx-logo-vector.svg" height="20">
     </a>
 
--   Язык гипертекстовой разметки HTML;
+-   Язык гипертекстовой разметки HTML
     <a href='http://htmlbook.ru/html' target='_blank' alt='Sass'>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" height="20">
     </a>
 
--   Язык таблиц стилей CSS + SCSS;
+-   Каскадная таблица стилей CSS + SCSS
     <a href='https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics' target='_blank' alt='Sass'>
     <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" height="20">
     </a>
@@ -51,13 +51,13 @@
     <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" height="20">
     </a>
 
--Вспомогательные средства:
+-   Вспомогательные средства:
 
--   Formik - управление формами
+*   Formik - управление формами
 
--   React-router-dom - маршрутизация внутри приложения
+*   React-router-dom - маршрутизация внутри приложения
 
--   CSS-modules
+*   CSS-modules
 
 ### Ссылки на проект
 
