@@ -24,16 +24,16 @@
 
 ### Используемые технологии
 
-Веб-приложение представляет из себя SPA, выполненое на ReactJS: <a href='https://reactjs.org/' target='_blank' alt='React'>
+Веб-приложение представляет из себя SPA, выполненое на ReactJS <a href='https://reactjs.org/' target='_blank' alt='React'>
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" height="20">
 </a>
 
--   Язык программирования TypeScript !;
+-   Язык программирования TypeScript
     <a href='https://www.typescriptlang.org/' target='_blank' alt='TypeScript'>
     <img src="https://iconape.com/wp-content/png_logo_vector/typescript.png" height="20">
     </a>
 
--   Стейт-менеджер: MobX  
+-   Стейт-менеджер MobX  
     <a href='https://mobx.js.org/README.html' target='_blank' alt='MobX'>
     <img src="https://brandslogos.com/wp-content/uploads/thumbs/mobx-logo-vector.svg" height="20">
     </a>
@@ -51,13 +51,13 @@
     <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" height="20">
     </a>
 
--   Вспомогательные средства:
+Вспомогательные средства:
 
-*   Formik - управление формами
+-   Formik - управление формами
 
-*   React-router-dom - маршрутизация внутри приложения
+-   React-router-dom - маршрутизация внутри приложения
 
-*   CSS-modules
+-   CSS-modules
 
 ### Ссылки на проект
 
