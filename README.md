@@ -35,7 +35,7 @@
 
 -   Стейт-менеджер MobX  
     <a href='https://mobx.js.org/README.html' target='_blank' alt='MobX'>
-    <img src="https://brandslogos.com/wp-content/uploads/thumbs/mobx-logo-vector.svg" height="20">
+    <img src="https://miro.medium.com/max/400/1*nvHO6KuxX5B6FVXZ_hqTZw.png" height="20">
     </a>
 
 -   Язык гипертекстовой разметки HTML
