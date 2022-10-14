@@ -33,8 +33,8 @@
     <img src="https://iconape.com/wp-content/png_logo_vector/typescript.png" height="20">
     </a>
 
--   Стейт-менеджер MobX  
-    <a href='https://mobx.js.org/README.html' target='_blank' alt='MobX'>
+-   Стейт-менеджер MobX
+    <a href='https://mobx.js.org/' target='_blank' alt='TypeScript'>
     <img src="https://miro.medium.com/max/400/1*nvHO6KuxX5B6FVXZ_hqTZw.png" height="20">
     </a>
 
