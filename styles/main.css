@@ -238,10 +238,13 @@ main .mainTitle h3 {
 
 .cisco {
   background-color: bisque !important;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 30% 70%;
-      grid-template-columns: 30% 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 10px;
 }
 
@@ -259,75 +262,23 @@ main .mainTitle h3 {
 }
 
 .cisco__title {
-  margin-top: 30px;
-  font-size: 26px;
-}
-
-.cisco .ciscoText {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  direction: rtl;
-}
-
-.cisco .ciscoText__content {
-  margin-top: 30px;
-  padding: 10px 30px;
-  overflow-y: auto;
-  max-height: 800px;
-}
-
-.cisco .ciscoText__content p {
-  padding: 30px;
-  margin: 0px;
-  background-color: white;
-  border-radius: 30px;
-  -webkit-box-shadow: -5px -5px 8px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: -5px -5px 8px 0px rgba(34, 60, 80, 0.2);
+  padding: 10px;
   font-size: 20px;
-  text-align: left;
-}
-
-.cisco .ciscoText__content::-webkit-scrollbar {
-  width: 85px;
-  direction: ltr;
-  background-image: url(../media/scroll.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.cisco .ciscoText__content::-webkit-scrollbar-thumb {
-  background-repeat: no-repeat;
-  background-image: url(../media/scrollBar.png);
-  background-size: 80% 50%;
 }
 
 .cisco .ciscoLabs {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: minmax(420px, 1fr) [auto-fill];
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  gap: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+  max-height: 650px;
   margin-bottom: 40px;
 }
 
 .cisco .ciscoWork {
+  max-width: 400px;
+  display: inline-block;
   text-decoration: none;
   background-color: #699ad6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-width: 400px;
   padding: 20px;
   margin: 20px;
   border-radius: 20px;
@@ -360,5 +311,19 @@ main .mainTitle h3 {
 .cisco .ciscoWork__title {
   font-size: 20px;
   color: white;
+}
+
+.ciscoLabs::-webkit-scrollbar {
+  margin: 10px;
+  max-width: 85px;
+  height: 160px;
+  background-image: url(../media/scroll.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ciscoLabs::-webkit-scrollbar-thumb {
+  background-image: url(../media/scrollBar.png);
+  background-size: 100% 100%;
 }
 /*# sourceMappingURL=main.css.map */
