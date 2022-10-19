@@ -323,7 +323,7 @@ main .mainTitle h3 {
 }
 
 .ciscoLabs::-webkit-scrollbar-thumb {
-  background-image: url(../media/scrollBar.png);
+  background-image: url(../media/scrollbar.png);
   background-size: 100% 100%;
 }
 /*# sourceMappingURL=main.css.map */
