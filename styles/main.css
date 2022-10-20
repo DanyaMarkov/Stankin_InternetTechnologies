@@ -266,6 +266,30 @@ main .mainTitle h3 {
   font-size: 20px;
 }
 
+.cisco__link {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+  font-size: larger;
+  line-height: 1;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+  margin: 10px auto 0px auto;
+  text-transform: uppercase;
+  color: #6b6be6;
+}
+
+.cisco__link a {
+  margin: 0px;
+}
+
+.cisco__link:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #a3115a;
+}
+
 .cisco .ciscoLabs {
   white-space: nowrap;
   overflow: hidden;
@@ -300,12 +324,14 @@ main .mainTitle h3 {
   background-color: white;
   max-width: 370px;
   min-width: 370px;
-  max-height: 330px;
-  min-height: 330px;
+  max-height: 270px;
+  min-height: 270px;
 }
 
 .cisco .ciscoWork__picture img {
   max-width: 370px;
+  max-height: 270px;
+  min-height: 270px;
 }
 
 .cisco .ciscoWork__title {
@@ -316,14 +342,22 @@ main .mainTitle h3 {
 .ciscoLabs::-webkit-scrollbar {
   margin: 10px;
   max-width: 85px;
-  height: 160px;
-  background-image: url(../media/scroll.png);
+  height: 60px;
+  background: url(https://community.akamai.steamstatic.com/public/images/friends/colored_body_top2.png?v=2) center top no-repeat #1b2838;
+  display: -webkit-inline-box;
+  display: inline-flex;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .ciscoLabs::-webkit-scrollbar-thumb {
-  background-image: url(../media/scrollbar.png);
+  background-color: #6b6be6;
+  background-size: 100% 100%;
+  display: -webkit-inline-box;
+  display: inline-flex;
+}
+
+.ciscoLabs::-webkit-scrollbar-thumb:hover {
+  background-color: #8484dd;
   background-size: 100% 100%;
 }
 /*# sourceMappingURL=main.css.map */
