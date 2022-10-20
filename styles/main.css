@@ -102,7 +102,6 @@ main .mainTitle h3 {
 .container {
   max-width: 1500px;
   border: 1px solid #e9b7b7;
-  border-radius: 10px;
   margin: 20px auto;
 }
 
@@ -112,7 +111,6 @@ main .mainTitle h3 {
   display: grid;
   -ms-grid-columns: 25% 75%;
       grid-template-columns: 25% 75%;
-  border-radius: 10px;
   padding: 40px;
 }
 
@@ -245,7 +243,6 @@ main .mainTitle h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 10px;
 }
 
 .cisco__logo {
@@ -295,13 +292,14 @@ main .mainTitle h3 {
   overflow: hidden;
   overflow-x: scroll;
   max-height: 650px;
-  margin-bottom: 40px;
 }
 
 .cisco .ciscoWork {
   max-width: 400px;
   display: inline-block;
   text-decoration: none;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   background-color: #699ad6;
   padding: 20px;
   margin: 20px;
@@ -352,12 +350,15 @@ main .mainTitle h3 {
 .ciscoLabs::-webkit-scrollbar-thumb {
   background-color: #6b6be6;
   background-size: 100% 100%;
-  display: -webkit-inline-box;
-  display: inline-flex;
 }
 
 .ciscoLabs::-webkit-scrollbar-thumb:hover {
   background-color: #8484dd;
-  background-size: 100% 100%;
+}
+
+.ciscoLabs::-webkit-scrollbar-thumb:active {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #cd6c1d;
 }
 /*# sourceMappingURL=main.css.map */
