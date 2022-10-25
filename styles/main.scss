@@ -217,10 +217,25 @@ main {
 }
 
 
+
+.turing {
+    background-color: rgb(4, 58, 129);
+    color: white;
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+    padding: 40px;
+
+}
+
+
+
 .cisco {
-    background-color: bisque !important;
+    background-color: #425F57 !important;
     display: flex;
     flex-direction: column;
+    color: #ffffff;
     // border-radius: 10px;
 
     &__logo {
@@ -247,13 +262,13 @@ main {
             font-family: sans-serif;
             margin: 10px auto 0px auto;
             text-transform: uppercase;
-            color:rgb(107, 107, 230);
+            color:#CFFF8D;
             a {
                 margin: 0px;
             }
             &:hover {
                 transition: 0.4s;
-                color: rgb(163, 17, 90);
+                color:#daedbf;
             }
     }
 
@@ -275,11 +290,12 @@ main {
             box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 
             &:hover {
-                background-color: rgb(59, 127, 79);
+                background-color: #677c55;
                 transition: 0.6s;
             }
 
-            background-color: rgb(105, 154, 214);
+            // background-color: rgb(105, 154, 214);
+            background-color: #749F82;
 
             padding: 20px;
             margin: 20px;
@@ -307,35 +323,35 @@ main {
             color: white;
         }
     }
-}
-
-
-.ciscoLabs::-webkit-scrollbar {
-    margin: 10px;
-    max-width: 85px;
-    height: 60px;
-    // background-image: url(../media/scroll.png);
-    // background-color: red;
-    background: url(https://community.akamai.steamstatic.com/public/images/friends/colored_body_top2.png?v=2) center top no-repeat rgb(27,40, 56);
-    display: inline-flex;
-
-    background-repeat: no-repeat;
-    // background-size: 100% 100%;
-}
-
-
-.ciscoLabs::-webkit-scrollbar-thumb {
-    // background-repeat: no-repeat;
-    // height: 100px;
-    background-color: rgb(107, 107, 230);
-    // background-image: url(../media/scrollbar.png);
-    background-size: 100% 100%;
- 
-    &:hover {
-        background-color: rgb(132, 132, 221);
+    .ciscoLabs::-webkit-scrollbar {
+        margin: 10px;
+        max-width: 85px;
+        height: 60px;
+        // background-image: url(../media/scroll.png);
+        // background-color: red;
+        background: url(https://community.akamai.steamstatic.com/public/images/friends/colored_body_top2.png?v=2) center top no-repeat rgb(27,40, 56);
+        display: inline-flex;
+    
+        background-repeat: no-repeat;
+        // background-size: 100% 100%;
     }
-    &:active {
-        transition: 0.5s;
-        background-color: rgb(205, 108, 29);
+    
+    
+    .ciscoLabs::-webkit-scrollbar-thumb {
+        // background-repeat: no-repeat;
+        // height: 100px;
+        background-color: #A8E890;
+        // background-image: url(../media/scrollbar.png);
+        background-size: 100% 100%;
+     
+        &:hover {
+            background-color: #c7f6b6;
+        }
+        &:active {
+            transition: 0.5s;
+            background-color: #CFFF8D;
+        }
     }
 }
+
+

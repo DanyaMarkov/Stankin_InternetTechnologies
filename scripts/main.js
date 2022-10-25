@@ -7,7 +7,7 @@ var btn2 = document.getElementById("btn2");
 var btn3 = document.getElementById("btn3");
 // var lab1 = document.getElementById("lab1") ;
 
-var currentLab = 3;
+var currentLab = 1;
 
 // function changeLab(number) {
 let changeLab = (number) => {

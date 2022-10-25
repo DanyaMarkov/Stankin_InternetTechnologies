@@ -234,8 +234,18 @@ main .mainTitle h3 {
   color: #9ddafb;
 }
 
+.turing {
+  background-color: #043a81;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 75%;
+      grid-template-columns: 25% 75%;
+  padding: 40px;
+}
+
 .cisco {
-  background-color: bisque !important;
+  background-color: #425F57 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,6 +253,7 @@ main .mainTitle h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: #ffffff;
 }
 
 .cisco__logo {
@@ -274,7 +285,7 @@ main .mainTitle h3 {
   font-family: sans-serif;
   margin: 10px auto 0px auto;
   text-transform: uppercase;
-  color: #6b6be6;
+  color: #CFFF8D;
 }
 
 .cisco__link a {
@@ -284,7 +295,7 @@ main .mainTitle h3 {
 .cisco__link:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  color: #a3115a;
+  color: #daedbf;
 }
 
 .cisco .ciscoLabs {
@@ -300,14 +311,14 @@ main .mainTitle h3 {
   text-decoration: none;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-  background-color: #699ad6;
+  background-color: #749F82;
   padding: 20px;
   margin: 20px;
   border-radius: 20px;
 }
 
 .cisco .ciscoWork:hover {
-  background-color: #3b7f4f;
+  background-color: #677c55;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -337,7 +348,7 @@ main .mainTitle h3 {
   color: white;
 }
 
-.ciscoLabs::-webkit-scrollbar {
+.cisco .ciscoLabs::-webkit-scrollbar {
   margin: 10px;
   max-width: 85px;
   height: 60px;
@@ -347,18 +358,18 @@ main .mainTitle h3 {
   background-repeat: no-repeat;
 }
 
-.ciscoLabs::-webkit-scrollbar-thumb {
-  background-color: #6b6be6;
+.cisco .ciscoLabs::-webkit-scrollbar-thumb {
+  background-color: #A8E890;
   background-size: 100% 100%;
 }
 
-.ciscoLabs::-webkit-scrollbar-thumb:hover {
-  background-color: #8484dd;
+.cisco .ciscoLabs::-webkit-scrollbar-thumb:hover {
+  background-color: #c7f6b6;
 }
 
-.ciscoLabs::-webkit-scrollbar-thumb:active {
+.cisco .ciscoLabs::-webkit-scrollbar-thumb:active {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: #cd6c1d;
+  background-color: #CFFF8D;
 }
 /*# sourceMappingURL=main.css.map */
