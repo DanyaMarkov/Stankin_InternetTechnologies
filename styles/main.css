@@ -239,9 +239,18 @@ main .mainTitle h3 {
   color: white;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 25% 75%;
-      grid-template-columns: 25% 75%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
   padding: 40px;
+}
+
+.turing__block {
+  padding: 50px;
+}
+
+.turing__block a {
+  text-decoration: none;
+  color: #e24555;
 }
 
 .cisco {

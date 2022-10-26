@@ -223,9 +223,17 @@ main {
     color: white;
 
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 50% 50%;
 
     padding: 40px;
+
+    &__block {
+        padding: 50px;
+        a {
+            text-decoration: none;
+            color: rgb(226, 69, 85);
+        }
+    }
 
 }
 
