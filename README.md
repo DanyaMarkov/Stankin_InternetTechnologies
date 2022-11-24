@@ -68,7 +68,7 @@
 ### Ссылки на проект
 
 1. Репозиторий проекта доступен по ссылке: [IT-проект](https://github.com/DanyaMarkov/turing-machine-simulator)
-2. Веб-страница с описанием проекта доступна по ссылке: [Landing page](https://danyamarkov.github.io/machine-turing-simulator/)
+2. Веб-страница с описанием проекта доступна по ссылке: [Landing page](https://danyamarkov.github.io/turing-machine-simulator/)
 
 ## Лабораторная работа № 3
 
