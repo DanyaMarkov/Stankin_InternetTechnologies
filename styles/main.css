@@ -44,6 +44,7 @@ header .name {
 
 main {
   background: url(https://community.akamai.steamstatic.com/public/images/friends/colored_body_top2.png?v=2) center top no-repeat #1b2838;
+  background-size: cover;
   padding: 10px 0px 40px 0px;
   min-height: 80.9vh;
 }
@@ -234,23 +235,90 @@ main .mainTitle h3 {
   color: #9ddafb;
 }
 
+.rectangle {
+  position: absolute;
+  padding: 80px;
+  background-color: #964545;
+  border: 2px dashed whitesmoke;
+  right: 100px;
+  top: 150px;
+  -webkit-animation: rectangle ease-in-out 5s infinite;
+          animation: rectangle ease-in-out 5s infinite;
+}
+
+@-webkit-keyframes rectangle {
+  0% {
+    rotate: 0deg;
+    padding: 80px;
+  }
+  50% {
+    rotate: 180deg;
+    padding: 40px;
+  }
+  100% {
+    rotate: 360deg;
+    padding: 80px;
+  }
+}
+
+@keyframes rectangle {
+  0% {
+    rotate: 0deg;
+    padding: 80px;
+  }
+  50% {
+    rotate: 180deg;
+    padding: 40px;
+  }
+  100% {
+    rotate: 360deg;
+    padding: 80px;
+  }
+}
+
 .turing {
+  position: relative;
   background-color: #043a81;
   color: white;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+      grid-template-areas: "mainInfo mainInfo" "technologies team ";
   padding: 40px;
 }
 
-.turing__block {
-  padding: 50px;
+.turing__mainInfo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: mainInfo;
 }
 
-.turing__block a {
+.turing__technologies {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: technologies;
+  margin-top: 20px;
+}
+
+.turing__technologies_list {
+  margin-left: 10px;
+}
+
+.turing__team {
+  margin-top: 20px;
+}
+
+.turing__team_list {
+  margin-left: 10px;
+}
+
+.turing__team a {
   text-decoration: none;
   color: #e24555;
+}
+
+.turing__team a:hover {
+  color: white;
 }
 
 .cisco {
@@ -295,6 +363,8 @@ main .mainTitle h3 {
   margin: 10px auto 0px auto;
   text-transform: uppercase;
   color: #CFFF8D;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
 }
 
 .cisco__link a {
@@ -320,6 +390,8 @@ main .mainTitle h3 {
   text-decoration: none;
   -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   background-color: #749F82;
   padding: 20px;
   margin: 20px;
