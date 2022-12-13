@@ -304,6 +304,16 @@ main .mainTitle h3 {
   margin-left: 10px;
 }
 
+.turing__technologies a {
+  color: red;
+}
+
+.turing__technologies a:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
+}
+
 .turing__team {
   margin-top: 20px;
 }

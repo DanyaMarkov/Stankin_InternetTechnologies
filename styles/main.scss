@@ -266,6 +266,15 @@ main {
         &_list {
             margin-left: 10px;
         }
+
+        a {
+            color: red;
+
+            &:hover {
+                cursor: pointer;
+                filter: brightness(1.15);
+            }
+        }
     }
     
     &__team {
