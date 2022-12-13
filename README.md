@@ -68,7 +68,7 @@
 ### Ссылки на проект
 
 1. Репозиторий проекта доступен по ссылке: [IT-проект](https://github.com/DanyaMarkov/turing-machine-simulator)
-2. Веб-страница с описанием проекта доступна по ссылке: [Landing page](https://danyamarkov.github.io/turing-machine-simulator/)
+2. Веб-страница с описанием проекта (лендинг) и непосредственно сам проект (машина Тьюринга) доступны по ссылке: [Turing machine simulator](https://danyamarkov.github.io/turing-machine-simulator/)
 
 ## Лабораторная работа № 3
 
@@ -81,3 +81,6 @@
 
 Ответ на экзаменационный билет доступен по ссылке:
 [билет №3](https://github.com/stankin/inet-2022/wiki/exam3)
+
+Личный вклад в разработку "подсказок" к билету:
+[коммит](https://github.com/stankin/inet-2022/wiki/exam03/6d5dcb31dc47e95aa89ea881db4c338fa405d005)
