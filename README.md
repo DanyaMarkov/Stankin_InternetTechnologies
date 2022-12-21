@@ -90,10 +90,10 @@
 
 [Отчёты по Cisco Packet Tracer](https://drive.google.com/drive/folders/1vXWb_5c29HbrwJWEsQoZt3aMg8eC1MVg?usp=sharing)
 
-## 🎫 Экзаменационные билет №3
+## 🎫 Экзаменационный билет №3
 
 Ответ на экзаменационный билет доступен по ссылке:
-[билет №3](https://github.com/stankin/inet-2022/wiki/exam3)
+[Билет №3](https://github.com/stankin/inet-2022/wiki/exam3)
 
 Личный вклад в разработку "подсказок" к билету:
-[коммит](https://github.com/stankin/inet-2022/wiki/exam03/_compare/d212c78250664e55b89114281c643a99058f0dd8...9ab561d040ab7b957a51657e132e58c7a3a7af2f)
+[Сравнение ревизий](https://github.com/stankin/inet-2022/wiki/exam03/_compare/d212c78250664e55b89114281c643a99058f0dd8...9ab561d040ab7b957a51657e132e58c7a3a7af2f)
